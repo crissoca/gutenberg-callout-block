@@ -11,6 +11,7 @@
     "cgb-scripts": "1.9.4"
   },
   "devDependencies": {
-    "classnames": "^2.2.5"
+    "classnames": "^2.2.5",
+    "lodash": "^4.17.5"
   }
 }

@@ -1,15 +1,14 @@
 <?php
 /**
- * Plugin Name: column-block — CGB Gutenberg Block Plugin
- * Plugin URI: https://github.com/ahmadawais/create-guten-block/
- * Description: column-block — is a Gutenberg plugin created via create-guten-block.
- * Author: mrahmadawais, maedahbatool
- * Author URI: https://AhmadAwais.com/
+ * Plugin Name: Gutenberg callout block
+ * Plugin URI: https://github.com/ptasker
+ * Description: Gutenberg callout black - a way to make a left or right aligned image and text region
+ * Author: Peter Tasker
+ * Author URI: http://petetasker.com
  * Version: 1.0.0
  * License: GPL2+
  * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
  *
- * @package CGB
  */
 
 // Exit if accessed directly.

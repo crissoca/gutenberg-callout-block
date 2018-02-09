@@ -5,11 +5,39 @@
  * which makes it higher in priority.
  */
 
-.wp-block-cgb-block-column-block  {
-  background: $green;
-  border: 0.2rem solid $black;
-  color: $black;
-  margin: 0 auto;
-  max-width: 740px;
-  padding: 2rem;
+#poststuff .wp-block-callout-block-bootstrap-callout h2{
+    font-size: 2rem;
+    padding: 0;
+    margin: 0 0 15px 0;
+    line-height: 1.4;
+}
+
+.wp-block-callout-block-bootstrap-callout.flex{
+
+    display: flex;
+    flex-wrap: wrap;
+
+    .order-last{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        order: 13;
+    }
+    .order-first{
+        flex-basis: 0;
+        flex-grow: 1;
+        max-width: 100%;
+        order: -1;
+    }
+
+    .text-block{
+        padding: 0 15px;
+    }
+}
+
+.edit-post-visual-editor .editor-block-list__block {
+    max-width:1024px;
+}
+.edit-post-visual-editor .editor-post-title{
+    max-width: 1024px;
 }
