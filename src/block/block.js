@@ -1,8 +1,6 @@
 /**
- * BLOCK: column-block
+ * BLOCK: callout-block
  *
- * Registering a layout block with Gutenberg.
- * Simple block, renders and saves the same content without any interactivity.
  */
 
 //  Import CSS.
